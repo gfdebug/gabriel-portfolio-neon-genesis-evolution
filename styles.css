@@ -129,16 +129,3 @@ body.light .mini-cta,body.light .language-option.is-active,body.light .filter.is
 .button-primary{background:linear-gradient(120deg,#F1F5F9,#CBD5E1);border-color:#CBD5E1;color:#0D0F12;box-shadow:0 8px 28px #94a3b81a}.button-primary:hover{box-shadow:0 10px 30px #94a3b82b}.button-whatsapp{background:#F1F5F9!important;border-color:#CBD5E1!important;color:#0D0F12!important}.button-whatsapp:hover{background:#CBD5E1!important}.gallery-format{font-size:13px;color:var(--muted);margin-right:12px}
 
 .gallery-view-switch{display:flex;gap:8px;margin-bottom:18px}.gallery-view-switch button{font:inherit;font-size:14px;border:1px solid var(--line);padding:9px 16px;border-radius:30px;background:var(--bg);color:var(--text)}.gallery-view-switch button[aria-pressed="true"]{background:var(--text);color:var(--bg)}
-
-/* WhatsApp keeps its recognizable brand color, independent of the silver palette. */
-.button-whatsapp{background:#25D366!important;border-color:#25D366!important;color:#082513!important;box-shadow:0 8px 24px #25d36620}.button-whatsapp:hover{background:#42df7e!important;border-color:#42df7e!important;color:#082513!important}.button-whatsapp:focus-visible{outline-color:#25D366}
-
-/* Opening: clear identity, visible profession, concise service promise. */
-.hero{padding-top:44px}.hero h1{font-size:clamp(64px,7vw,100px);margin-bottom:12px;letter-spacing:-.06em}
-.hero-profession{font-size:22px;font-weight:500;color:var(--muted);margin:0 0 27px;line-height:1.4}
-.hero-role{font-size:clamp(25px,2.55vw,35px);line-height:1.3;letter-spacing:-.025em;margin-bottom:22px;max-width:650px}
-.hero-description{font-size:17px;line-height:1.8;max-width:510px}.hero-topline{letter-spacing:.1em}.hero .eyebrow{letter-spacing:.12em;font-size:12px}
-.hero .boot-line,.hero .floating-tag,.hero .visual-corner,.hero .visual-badge{display:none}
-.hero-stats{margin-top:34px}.hero-visual{filter:drop-shadow(0 0 22px #778aa418)}.hero .orbit{opacity:.35;animation:none!important}
-@media(max-width:800px){.hero h1{font-size:clamp(62px,10vw,90px)}.hero-profession{font-size:21px;margin-bottom:23px}}
-@media(max-width:580px){.hero{padding-top:28px}.hero h1{font-size:clamp(54px,14vw,78px)}.hero-profession{font-size:20px;margin-bottom:23px}.hero-role{font-size:26px}.hero-description{font-size:16px}.hero-topline{font-size:9px;gap:8px}.hero-stats{margin-top:28px}}
