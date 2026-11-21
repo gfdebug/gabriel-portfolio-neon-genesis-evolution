@@ -49,7 +49,7 @@ const observer=('IntersectionObserver'in window)?new IntersectionObserver(entrie
   const canvas=document.getElementById('neonField');
   const context=canvas.getContext('2d', {alpha:true});
   let width=0,height=0,dots=[],frame=0,animationId=0;
-  const palette=['#fd47c6','#9a66ff','#51dff0','#f7c5ff'];
+  const palette=['#A995FF','#7DBAFF','#7DBAFF','#c5e0ff'];
   const random=(a,b)=>a+Math.random()*(b-a);
   const resetCanvas=()=>{
     const dpr=Math.min(window.devicePixelRatio||1,1.75);
