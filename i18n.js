@@ -130,6 +130,8 @@ const GL_TRANSLATIONS = {
   "GABRIEL LIMA / WEB DEVELOPER": "GABRIEL LIMA / WEB DEVELOPER",
   "Ver exemplos no portfólio ↗": "View examples in portfolio ↗"
 };
+Object.assign(GL_TRANSLATIONS,{"GABRIEL LIMA / DESENVOLVEDOR WEB": "GABRIEL LIMA / WEB DEVELOPER", "NEON GENESIS // DESENVOLVIMENTO WEB": "NEON GENESIS // WEB DEVELOPMENT", "Desenvolvo": "I build", "sites profissionais, aplicações web e soluções para dados": "professional websites, web applications and data solutions", "para apresentar negócios, organizar rotinas e facilitar o dia a dia. Conheça meu trabalho e vamos conversar sobre o seu projeto.": "to showcase businesses, organize workflows and make everyday tasks easier. Explore my work and let’s discuss your project.", "Solicitar orçamento": "Request a quote", "Soluções para apresentar seu negócio, organizar informações e melhorar experiências digitais. Escopo e prazo definidos de acordo com cada necessidade.": "Solutions to showcase your business, organize information and improve digital experiences. Scope and timeline tailored to each need.", "Ferramentas web com cadastros, painéis, tarefas e integração com banco de dados para organizar processos.": "Web tools with records, dashboards, tasks and database integration to organize workflows.", "Projetos autorais de portfólio. As demonstrações utilizam marcas e cenários fictícios; confira as funcionalidades e condições de cada projeto nos detalhes.": "Independent portfolio projects. Demonstrations use fictional brands and scenarios; see each project’s features and conditions in its details.", "03 / QUEM SOU": "03 / ABOUT ME", "04 / TRAJETÓRIA PROFISSIONAL": "04 / PROFESSIONAL JOURNEY", "06 / JEITO DE TRABALHAR": "06 / HOW I WORK", "07 / PERFIL / CURRÍCULO": "07 / PROFILE / RESUME", "Telas dos projetos NexData e Nexora": "Screens from NexData and Nexora"});
+Object.assign(GL_TRANSLATIONS,{"Formato das capturas":"Screenshot format"});
 const GL_ORIGINAL = new WeakMap();
 const GL_ATTR_ORIGINAL = new WeakMap();
 function glTranslate(lang) {
@@ -174,7 +176,7 @@ function glTranslate(lang) {
   });
   const wa=document.getElementById('whatsappContact');
   if(wa){const message=lang==='en'?'Hello Gabriel! I saw your portfolio and would like to discuss a project.':'Olá, Gabriel! Conheci seu portfólio e gostaria de conversar sobre um projeto.';wa.href='https://wa.me/5531972120246?text='+encodeURIComponent(message);}
-  document.title=lang==='en'?'Gabriel Lima — Neon Genesis Evolution | Web Developer':'Gabriel Lima — Neon Genesis Evolution | Desenvolvedor Web';
+  document.title=lang==='en'?'Gabriel Lima | Web Developer — Websites, Systems & Data':'Gabriel Lima | Desenvolvedor Web — Sites, Sistemas e Dados';
   document.querySelector('meta[name="description"]').content=lang==='en'?'Gabriel Lima — web developer. Websites, interactive applications, data dashboards and portfolio demonstrations.':'Gabriel Lima — desenvolvedor web. Sites, aplicações interativas, dashboards e projetos de portfólio.';
   document.dispatchEvent(new CustomEvent('gl-language-change',{detail:{lang}}));
 }
