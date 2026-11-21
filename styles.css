@@ -129,3 +129,6 @@ body.light .mini-cta,body.light .language-option.is-active,body.light .filter.is
 .button-primary{background:linear-gradient(120deg,#F1F5F9,#CBD5E1);border-color:#CBD5E1;color:#0D0F12;box-shadow:0 8px 28px #94a3b81a}.button-primary:hover{box-shadow:0 10px 30px #94a3b82b}.button-whatsapp{background:#F1F5F9!important;border-color:#CBD5E1!important;color:#0D0F12!important}.button-whatsapp:hover{background:#CBD5E1!important}.gallery-format{font-size:13px;color:var(--muted);margin-right:12px}
 
 .gallery-view-switch{display:flex;gap:8px;margin-bottom:18px}.gallery-view-switch button{font:inherit;font-size:14px;border:1px solid var(--line);padding:9px 16px;border-radius:30px;background:var(--bg);color:var(--text)}.gallery-view-switch button[aria-pressed="true"]{background:var(--text);color:var(--bg)}
+
+/* WhatsApp keeps its recognizable brand color, independent of the silver palette. */
+.button-whatsapp{background:#25D366!important;border-color:#25D366!important;color:#082513!important;box-shadow:0 8px 24px #25d36620}.button-whatsapp:hover{background:#42df7e!important;border-color:#42df7e!important;color:#082513!important}.button-whatsapp:focus-visible{outline-color:#25D366}
