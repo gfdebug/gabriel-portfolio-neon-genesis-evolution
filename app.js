@@ -209,3 +209,6 @@ quoteForm.addEventListener('submit',event=>{
 });
 quoteForm.addEventListener('input',()=>{document.getElementById('quotePreview').hidden=true;document.getElementById('quoteSend').removeAttribute('href')});
 document.addEventListener('gl-language-change',()=>{if(!document.getElementById('quotePreview').hidden)prepareQuote()});
+
+const expressQuote=document.getElementById('expressQuote');
+expressQuote.addEventListener('click',()=>{const select=document.getElementById('quoteService');select.value='site';select.dispatchEvent(new Event('input',{bubbles:true}));});
