@@ -44,3 +44,7 @@ Versão evoluída do portfólio pessoal Gabriel Portfolio V3, preservando o visu
 **Nota:** os testes de navegador foram executados com HTML/CSS/JS injetados em um navegador isolado devido à restrição de navegação local do ambiente. Não constituem teste end-to-end do site depois de publicar. Verifique os links externos, carregamento real de fotos, envio pelo WhatsApp, acesso ao currículo e visual final no domínio publicado antes de substituí-lo em produção.
 
 Projetos listados são demonstrativos para portfólio; não representam contratos ou vendas reais.
+
+## CoLab Eclipse — novembro de 2026
+
+Sexto projeto: colaboração full stack com React, TypeScript, Node.js, NestJS, PostgreSQL, Socket.IO e Yjs. Capturas reais do app publicado, caso PT/EN, terminal e currículo atualizados. Estilos e efeitos preservados.
