@@ -197,7 +197,9 @@ function prepareQuote(){
  const select=document.getElementById('quoteService');
  if(!name||description.length<10||!select.value)return false;
  const service=select.options[select.selectedIndex].textContent;
- const message=projectText(`Olá, Gabriel! Sou ${name}. Conheci seu portfólio e gostaria de um orçamento.\n\nServiço: ${service}\nProjeto: ${description}`,`Hello Gabriel! I’m ${name}. I saw your portfolio and would like a quote.\n\nService: ${service}\nProject: ${description}`);
+ const selectedText=id=>{const el=document.getElementById(id);return el.options[el.selectedIndex].textContent};
+ const budget=selectedText('quoteBudget'),deadline=selectedText('quoteDeadline');
+ const message=projectText(`Olá, Gabriel! Sou ${name}. Conheci seu portfólio e gostaria de um orçamento.\n\nServiço: ${service}\nOrçamento previsto: ${budget}\nPrazo desejado: ${deadline}\nProjeto: ${description}\n\nPodemos confirmar o valor e o prazo após avaliar o projeto.`,`Hello Gabriel! I’m ${name}. I saw your portfolio and would like a quote.\n\nService: ${service}\nEstimated budget: ${budget}\nPreferred timeline: ${deadline}\nProject: ${description}\n\nWe can confirm the price and timeline after reviewing the project.`);
  document.getElementById('quoteMessage').textContent=message;
  document.getElementById('quoteSend').href='https://wa.me/5531972120246?text='+encodeURIComponent(message);
  return true;
